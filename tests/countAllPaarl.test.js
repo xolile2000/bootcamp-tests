@@ -3,7 +3,7 @@ describe("countAllPaarl",function(){
         assert.equal(0,countAllPaarl("counter"));
     
     });
-    it('should return true if registration numbers are from Paarl which sart with CJ',function(){
+    it('should return true if registration numbers are from Paarl which start with CJ',function(){
         assert.equal(true,countAllPaarl("CJ 456 765"))
     })
 });

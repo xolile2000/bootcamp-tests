@@ -11,6 +11,20 @@ describe("findItemsOver20",function(){
       
     
     });
+
+    it("should return an empty array if items  have a  quantity lower than 20",function(){
+
+        var itemList = [
+            {name : 'apples', qty : 10},
+            {name : 'pears', qty : 11},
+            {name : 'bananas', qty : 17},
+            {name : 'apples', qty : 13},
+        ];
+        assert.deepEqual([],findItemsOver20(itemList))
+        
+    
+    });
+    
      
     
 });

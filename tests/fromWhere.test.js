@@ -1,5 +1,5 @@
 describe("fromWhere",function(){
-    it("should return the town which the restristration number comes from",function(){
+    it("should return  Bellville if restristration number is from CY",function(){
         assert.equal("Bellville",fromWhere('CY'));
         
     
